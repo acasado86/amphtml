@@ -1,0 +1,53 @@
+<!doctype html>
+<html ⚡>
+<head>
+  <meta charset="utf-8">
+  <title>Released AMP components</title>
+  <link rel="canonical" href="amps.html" >
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+  <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+  <style amp-custom>
+    body {
+      max-width: 527px;
+      font-family: 'Questrial', Arial;
+    }
+    .box2 {
+      color: #555;
+      background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+      padding-left: 16px;
+      width: 50%;
+      z-index: 255;
+    }
+  </style>
+  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+  <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
+  <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+  <style>body {opacity: 0}</style><noscript><style>body {opacity: 1}</style></noscript>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+</head>
+<body>
+  <h2>Youtube</h2>
+  <amp-youtube
+      video-id="mGENRKrdoGY"
+      layout="responsive"
+      width="480" height="270"></amp-youtube>
+
+  <h2>Tarjeta con texto</h2>
+  <amp-img
+      src="http://integration.cdn.buho.opensistemas.com/2015/09/25115648/rs_634x959-150924135618-634.Robert-Pattinson-Filming-Ireland.ms_.092415-539x959.jpg"
+      width="539" placeholder
+      alt="Exclusive... 51843350 'Twilight' star Robert Pattinson looked virtually unrecognizable as he sports a full beard on set of 'Lost City Of Z' in Belfast, Ireland on August 27, 2015. 'Sons of Anarchy' star Charlie Hunnam looked dapper in his grey suit and heavy make-up which was used to age up the Brit. The movie is being produced by Brad Pitt. FameFlynet, Inc - Beverly Hills, CA, USA - +1 (818) 307-4813 RESTRICTIONS APPLY: USA ONLY"
+      height="959">
+      <amp-fit-text width="539" height="200" layout="responsive" class="box2">
+      Lorem ipsum dolor sit amet, has nisl nihil convenire et, vim at aeque inermis reprehendunt.
+    </amp-fit-text>
+  </amp-img>
+
+  <h2>Carrusel</h2>
+  <amp-carousel width=200 height=172 type=slides>
+      <amp-img src="http://integration.cdn.buho.opensistemas.com/2015/09/21154630/4006996_249px-200x172.jpg" layout=fill></amp-img>
+      <amp-img src="http://integration.cdn.buho.opensistemas.com/2015/09/21154638/4007008_249px-193x166.jpg" width=200 height=172></amp-img>
+      <amp-img src="http://integration.cdn.buho.opensistemas.com/2015/09/21154639/4006979_249px-249x214.jpg" width=200 height=172></amp-img>
+    </amp-carousel>
+</body>
+</html>
